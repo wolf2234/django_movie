@@ -3,12 +3,14 @@ from .models import *
 from django import forms
 from django.utils.safestring import mark_safe
 from ckeditor_uploader.widgets import CKEditorUploadingWidget
+from modeltranslation.admin import TranslationAdmin
 
 # Register your models here.
 
 
 class MovieAdminForm(forms.ModelForm):
-    description = forms.CharField(label='Description', widget=CKEditorUploadingWidget())
+    description_uk = forms.CharField(label='Description', widget=CKEditorUploadingWidget())
+    description_en = forms.CharField(label='Description', widget=CKEditorUploadingWidget())
 
     class Meta:
         model = Movie
@@ -16,24 +18,24 @@ class MovieAdminForm(forms.ModelForm):
 
 
 @admin.register(Category)
-class CategoryAdmin(admin.ModelAdmin):
+class CategoryAdmin(TranslationAdmin):
     list_display = ('id', 'name', 'url')
     list_display_links = ('name',)
 
 
 @admin.register(Actor)
-class ActorAdmin(admin.ModelAdmin):
+class ActorAdmin(TranslationAdmin):
     list_display = ('id', 'name', 'get_image')
     readonly_fields = ('get_image',)
 
     def get_image(self, obj):
-        return mark_safe(f"<img src={obj.image.url} width='50' height='60'")
+        return mark_safe(f'<img src={obj.image.url} width="50" height="60"')
 
     get_image.short_description = 'Image'
 
 
 @admin.register(Genre)
-class GenreAdmin(admin.ModelAdmin):
+class GenreAdmin(TranslationAdmin):
     list_display = ('id', 'name', 'url')
 
 
@@ -55,11 +57,10 @@ class MovieShotsInline(admin.TabularInline):
 
 
 @admin.register(Movie)
-class MovieAdmin(admin.ModelAdmin):
+class MovieAdmin(TranslationAdmin):
     list_display = ('id', 'title', 'category', 'url', 'draft')
     list_filter = ('category', 'year')
     search_fields = ('title', 'category__name')
-    inlines = [MovieShotsInline, ReviewsInline]
     save_on_top = True
     save_as = True
     list_editable = ('draft',)
@@ -67,20 +68,31 @@ class MovieAdmin(admin.ModelAdmin):
     # fields = (('actors', 'directors', 'genres'),)
     form = MovieAdminForm
     readonly_fields = ('get_poster',)
+    inlines = [MovieShotsInline, ReviewsInline]
     fieldsets = (
-        (None, {'fields': (('title', 'tagline'),)}),
-        (None, {'fields': ('description', ('poster', 'get_poster'))}),
-        (None, {'fields': (('year', 'world_premiere', 'county'),)}),
-        ('Actors', {
-            'classes': ('collapse',),
-            'fields': (('actors', 'directors', 'genres', 'category'),)
+        (None, {
+            "fields": (("title", "tagline"),)
         }),
-        (None, {'fields': (('budget', 'fees_in_usa', 'fess_in_world'),)}),
-        ('Options', {'fields': (('url', 'draft'),)}),
+        (None, {
+            "fields": ("description", ("poster", "get_poster"))
+        }),
+        (None, {
+            "fields": (("year", "world_premiere", "country"),)
+        }),
+        ("Actors", {
+            "classes": ("collapse",),
+            "fields": (("actors", "directors", "genres", "category"),)
+        }),
+        (None, {
+            "fields": (("budget", "fees_in_usa", "fess_in_world"),)
+        }),
+        ("Options", {
+            "fields": (("url", "draft"),)
+        }),
     )
 
     def get_poster(self, obj):
-        return mark_safe(f"<img src={obj.poster.url} width='100' height='110'")
+        return mark_safe(f'<img src={obj.poster.url} width="100" height="110"')
 
     def unpublish(self, request, queryset):
         row_update = queryset.update(draft=True)
@@ -108,19 +120,19 @@ class MovieAdmin(admin.ModelAdmin):
 
 
 @admin.register(MovieShots)
-class MovieShotsAdmin(admin.ModelAdmin):
+class MovieShotsAdmin(TranslationAdmin):
     list_display = ('id', 'title', 'movie', 'get_image')
     readonly_fields = ('get_image',)
 
     def get_image(self, obj):
-        return mark_safe(f"<img src={obj.image.url} width='50' height='60'")
+        return mark_safe(f'<img src={obj.image.url} width="50" height="60"')
 
     get_image.short_description = 'Image'
 
 
-@admin.register(RatingStar)
-class RatingStarAdmin(admin.ModelAdmin):
-    list_display = ('id', 'value')
+# @admin.register(RatingStar)
+# class RatingStarAdmin(admin.ModelAdmin):
+#     list_display = ('id', 'value')
 
 
 @admin.register(Rating)
@@ -137,7 +149,7 @@ class ReviewsAdmin(admin.ModelAdmin):
 admin.site.site_title = 'Django Movies'
 admin.site.site_header = 'Django Movies'
 
-# admin.site.register(RatingStar)
+admin.site.register(RatingStar)
 # admin.site.register(Category, CategoryAdmin)
 # admin.site.register(Actor, ActorAdmin)
 # admin.site.register(Genre, GenreAdmin)

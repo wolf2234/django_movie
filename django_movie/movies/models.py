@@ -54,7 +54,7 @@ class Movie(models.Model):
     description = models.TextField('Description')
     poster = models.ImageField('Poster', upload_to='movies/')
     year = models.PositiveSmallIntegerField('Release date', default=2019)
-    county = models.CharField('Counties', max_length=30)
+    country = models.CharField('Counties', max_length=30)
     directors = models.ManyToManyField(Actor, verbose_name='director', related_name='film_director')
     actors = models.ManyToManyField(Actor, verbose_name='actors', related_name='film_actor')
     genres = models.ManyToManyField(Genre, verbose_name='genres')
