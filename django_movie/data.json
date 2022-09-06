@@ -1,0 +1,2270 @@
+[
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2022-08-29T13:00:30.306Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Movies",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2022-08-29T13:01:44.544Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Comedy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2022-08-29T13:03:15.009Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Action Film",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2022-08-29T13:06:26.468Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Russell Crowe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2022-08-29T13:06:59.929Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Ben Affleck",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2022-08-29T13:08:01.295Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Ben Stiller",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2022-08-29T13:08:44.251Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Gary Oldman",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2022-08-29T13:22:05.162Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Mel Gibson",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2022-08-29T13:33:55.024Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Arnold Schwarzenegger",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2022-08-29T13:36:20.578Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Terminator",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2022-08-29T13:43:37.733Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Terminator 2: Judgment Day",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2022-08-29T13:48:01.671Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Doctor Strange 2 Into the Multiverse of Madness",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2022-08-29T16:02:25.487Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Terminator",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2022-08-29T16:44:47.225Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Doctor Strange 2 Into the Multiverse of Madness",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Draft\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2022-08-30T13:14:08.096Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Terminator k1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2022-08-30T13:14:51.464Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Terminator k2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2022-08-30T13:15:31.120Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Terminator k3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2022-08-30T13:16:50.668Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Terminator 2 (k1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2022-08-30T13:17:09.886Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Terminator 2 (k2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2022-08-30T13:17:38.684Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "Terminator 2 (k3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2022-08-30T13:19:15.674Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "Doctor Strange 2 (k1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2022-08-30T13:19:40.191Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "Doctor Strange 2 (k2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2022-08-30T13:19:57.982Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "9",
+      "object_repr": "Doctor Strange 2 (k3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2022-08-30T16:55:28.982Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Terminator",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Release date\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2022-08-30T17:17:33.966Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Terminator 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Review\", \"object\": \" - Terminator 3\"}}, {\"added\": {\"name\": \"Review\", \"object\": \" - Terminator 3\"}}, {\"added\": {\"name\": \"Review\", \"object\": \" - Terminator 3\"}}, {\"added\": {\"name\": \"Review\", \"object\": \" - Terminator 3\"}}, {\"added\": {\"name\": \"Review\", \"object\": \" - Terminator 3\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2022-08-30T17:20:49.231Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Terminator 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Draft\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2022-08-31T11:24:22.306Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Doctor Strange 2 Into the Multiverse of Madness",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2022-08-31T11:24:56.168Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Terminator 2: Judgment Day",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2022-08-31T11:25:18.770Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Terminator 2: Judgment Day",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2022-08-31T11:27:11.943Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Terminator 2: Judgment Day",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2022-08-31T11:29:27.454Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Terminator 2: Judgment Day",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2022-08-31T12:21:50.364Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Terminator 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Draft\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2022-08-31T12:21:50.386Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Doctor Strange 2 Into the Multiverse of Madness",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Draft\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2022-08-31T12:22:51.736Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Doctor Strange 2 Into the Multiverse of Madness",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Draft\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2022-08-31T12:22:51.756Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Terminator 2: Judgment Day",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Draft\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2022-08-31T13:17:18.553Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Terminator 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Draft\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2022-09-01T13:34:32.397Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "1 - Doctor Strange 2 Into the Multiverse of Madness",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2022-09-01T13:34:50.312Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "1 - Doctor Strange 2 Into the Multiverse of Madness",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2022-09-01T14:10:22.418Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "/about/ -- About us",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2022-09-01T14:16:21.187Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "/about/ -- About us",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Template name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2022-09-01T14:17:42.109Z",
+      "user": 1,
+      "content_type": 16,
+      "object_id": "1",
+      "object_repr": "/about/ -- About us",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add Review",
+      "content_type": 7,
+      "codename": "add_reviews"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change Review",
+      "content_type": 7,
+      "codename": "change_reviews"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete Review",
+      "content_type": 7,
+      "codename": "delete_reviews"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view Review",
+      "content_type": 7,
+      "codename": "view_reviews"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can add Film",
+      "content_type": 8,
+      "codename": "add_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can change Film",
+      "content_type": 8,
+      "codename": "change_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can delete Film",
+      "content_type": 8,
+      "codename": "delete_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can view Film",
+      "content_type": 8,
+      "codename": "view_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can add Category",
+      "content_type": 9,
+      "codename": "add_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can change Category",
+      "content_type": 9,
+      "codename": "change_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can delete Category",
+      "content_type": 9,
+      "codename": "delete_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can view Category",
+      "content_type": 9,
+      "codename": "view_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add Actors and director",
+      "content_type": 10,
+      "codename": "add_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change Actors and director",
+      "content_type": 10,
+      "codename": "change_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete Actors and director",
+      "content_type": 10,
+      "codename": "delete_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can view Actors and director",
+      "content_type": 10,
+      "codename": "view_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can add Shot from the movie",
+      "content_type": 11,
+      "codename": "add_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can change Shot from the movie",
+      "content_type": 11,
+      "codename": "change_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can delete Shot from the movie",
+      "content_type": 11,
+      "codename": "delete_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can view Shot from the movie",
+      "content_type": 11,
+      "codename": "view_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can add Genre",
+      "content_type": 12,
+      "codename": "add_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 46,
+   "fields": {
+      "name": "Can change Genre",
+      "content_type": 12,
+      "codename": "change_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 47,
+   "fields": {
+      "name": "Can delete Genre",
+      "content_type": 12,
+      "codename": "delete_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 48,
+   "fields": {
+      "name": "Can view Genre",
+      "content_type": 12,
+      "codename": "view_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 49,
+   "fields": {
+      "name": "Can add Star rating",
+      "content_type": 13,
+      "codename": "add_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 50,
+   "fields": {
+      "name": "Can change Star rating",
+      "content_type": 13,
+      "codename": "change_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 51,
+   "fields": {
+      "name": "Can delete Star rating",
+      "content_type": 13,
+      "codename": "delete_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 52,
+   "fields": {
+      "name": "Can view Star rating",
+      "content_type": 13,
+      "codename": "view_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 53,
+   "fields": {
+      "name": "Can add Rating",
+      "content_type": 14,
+      "codename": "add_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 54,
+   "fields": {
+      "name": "Can change Rating",
+      "content_type": 14,
+      "codename": "change_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 55,
+   "fields": {
+      "name": "Can delete Rating",
+      "content_type": 14,
+      "codename": "delete_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 56,
+   "fields": {
+      "name": "Can view Rating",
+      "content_type": 14,
+      "codename": "view_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 57,
+   "fields": {
+      "name": "Can add site",
+      "content_type": 15,
+      "codename": "add_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 58,
+   "fields": {
+      "name": "Can change site",
+      "content_type": 15,
+      "codename": "change_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 59,
+   "fields": {
+      "name": "Can delete site",
+      "content_type": 15,
+      "codename": "delete_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 60,
+   "fields": {
+      "name": "Can view site",
+      "content_type": 15,
+      "codename": "view_site"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 61,
+   "fields": {
+      "name": "Can add flat page",
+      "content_type": 16,
+      "codename": "add_flatpage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 62,
+   "fields": {
+      "name": "Can change flat page",
+      "content_type": 16,
+      "codename": "change_flatpage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 63,
+   "fields": {
+      "name": "Can delete flat page",
+      "content_type": 16,
+      "codename": "delete_flatpage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 64,
+   "fields": {
+      "name": "Can view flat page",
+      "content_type": 16,
+      "codename": "view_flatpage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 65,
+   "fields": {
+      "name": "Can add contact",
+      "content_type": 17,
+      "codename": "add_contact"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 66,
+   "fields": {
+      "name": "Can change contact",
+      "content_type": 17,
+      "codename": "change_contact"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 67,
+   "fields": {
+      "name": "Can delete contact",
+      "content_type": 17,
+      "codename": "delete_contact"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 68,
+   "fields": {
+      "name": "Can view contact",
+      "content_type": 17,
+      "codename": "view_contact"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 69,
+   "fields": {
+      "name": "Can add email address",
+      "content_type": 18,
+      "codename": "add_emailaddress"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 70,
+   "fields": {
+      "name": "Can change email address",
+      "content_type": 18,
+      "codename": "change_emailaddress"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 71,
+   "fields": {
+      "name": "Can delete email address",
+      "content_type": 18,
+      "codename": "delete_emailaddress"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 72,
+   "fields": {
+      "name": "Can view email address",
+      "content_type": 18,
+      "codename": "view_emailaddress"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 73,
+   "fields": {
+      "name": "Can add email confirmation",
+      "content_type": 19,
+      "codename": "add_emailconfirmation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 74,
+   "fields": {
+      "name": "Can change email confirmation",
+      "content_type": 19,
+      "codename": "change_emailconfirmation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 75,
+   "fields": {
+      "name": "Can delete email confirmation",
+      "content_type": 19,
+      "codename": "delete_emailconfirmation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 76,
+   "fields": {
+      "name": "Can view email confirmation",
+      "content_type": 19,
+      "codename": "view_emailconfirmation"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 77,
+   "fields": {
+      "name": "Can add social account",
+      "content_type": 20,
+      "codename": "add_socialaccount"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 78,
+   "fields": {
+      "name": "Can change social account",
+      "content_type": 20,
+      "codename": "change_socialaccount"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 79,
+   "fields": {
+      "name": "Can delete social account",
+      "content_type": 20,
+      "codename": "delete_socialaccount"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 80,
+   "fields": {
+      "name": "Can view social account",
+      "content_type": 20,
+      "codename": "view_socialaccount"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 81,
+   "fields": {
+      "name": "Can add social application",
+      "content_type": 21,
+      "codename": "add_socialapp"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 82,
+   "fields": {
+      "name": "Can change social application",
+      "content_type": 21,
+      "codename": "change_socialapp"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 83,
+   "fields": {
+      "name": "Can delete social application",
+      "content_type": 21,
+      "codename": "delete_socialapp"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 84,
+   "fields": {
+      "name": "Can view social application",
+      "content_type": 21,
+      "codename": "view_socialapp"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 85,
+   "fields": {
+      "name": "Can add social application token",
+      "content_type": 22,
+      "codename": "add_socialtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 86,
+   "fields": {
+      "name": "Can change social application token",
+      "content_type": 22,
+      "codename": "change_socialtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 87,
+   "fields": {
+      "name": "Can delete social application token",
+      "content_type": 22,
+      "codename": "delete_socialtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 88,
+   "fields": {
+      "name": "Can view social application token",
+      "content_type": 22,
+      "codename": "view_socialtoken"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$390000$Cj5ED809DdvvTlDvgZ7hjO$iH7LGJkgeWIRAZkZhOBHYYpD7bvULVlblRZPyUehwwo=",
+      "last_login": "2022-09-02T10:09:10.569Z",
+      "is_superuser": true,
+      "username": "viktor",
+      "first_name": "",
+      "last_name": "",
+      "email": "viktor@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-08-29T12:54:19.163Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "password": "pbkdf2_sha256$390000$KyzdzkjSNBRB9xpIi1DUqb$Xl2JEFZNRYLouZBKJ1x0H5dw6nV/MbcO3yBbTlXkDOc=",
+      "last_login": "2022-09-02T10:20:10.142Z",
+      "is_superuser": false,
+      "username": "Socialpat",
+      "first_name": "",
+      "last_name": "",
+      "email": "socialpat@exam.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-09-02T10:20:08.433Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "movies",
+      "model": "reviews"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "movies",
+      "model": "movie"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "movies",
+      "model": "category"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "movies",
+      "model": "actor"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "movies",
+      "model": "movieshots"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "movies",
+      "model": "genre"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "movies",
+      "model": "ratingstar"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "movies",
+      "model": "rating"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 15,
+   "fields": {
+      "app_label": "sites",
+      "model": "site"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 16,
+   "fields": {
+      "app_label": "flatpages",
+      "model": "flatpage"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 17,
+   "fields": {
+      "app_label": "contact",
+      "model": "contact"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 18,
+   "fields": {
+      "app_label": "account",
+      "model": "emailaddress"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 19,
+   "fields": {
+      "app_label": "account",
+      "model": "emailconfirmation"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 20,
+   "fields": {
+      "app_label": "socialaccount",
+      "model": "socialaccount"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 21,
+   "fields": {
+      "app_label": "socialaccount",
+      "model": "socialapp"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 22,
+   "fields": {
+      "app_label": "socialaccount",
+      "model": "socialtoken"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "25gu1djc2p1kqhkfbsyqskzeazsibb8f",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oTRUN:RpH35dNH9rnJeDdmlE9iMkU4v9uHTeIhpNNbbt6r6nQ",
+      "expire_date": "2022-09-14T17:26:55.073Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "43q1v9thxws9ffx83sruwy5stnd2qtyc",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oTjoq:xxIsetE4fo2FmvU3an1xYVAXBAO8UCMYB3oP7yQaqGA",
+      "expire_date": "2022-09-15T13:01:16.585Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "5hvyq1pjyzlvlily5xrr4oxkdims94v2",
+   "fields": {
+      "session_data": ".eJxljM0KgzAQBt8lZxHMj4ne2hcJm-wGQ9MImngpffeqSKH0uDPfzouB93PNxW60xBAJLT0hJjbmmlLztXWlhY2Ms4ZZqGU6gY34zxz4B-VDQEoHbq9Ge24uvba3_aJcoocS53y_vn5SE6zT3pEOgUtHGoaAXCrjgh8QjHCm67TQkjQqFNJpD0pAz00vwIWuR6U1kWDvDxz4TnE:1oU3mU:zjDDSUw__6Ob09ewmgYLsXVnhzznkCtPjPcSeMtdgSw",
+      "expire_date": "2022-09-16T10:20:10.154Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "750z2nr9t3gzuc1jp9k775bqb15o387m",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oTMio:dyueB0RmN6NaET400ApED355wxSUwR2Es0NMVGEwrTY",
+      "expire_date": "2022-09-14T12:21:30.176Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "i6ksnuzbz60lgsvyz5zy5ubur4hm0xsv",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oT2xT:B-EBGUV0I3QuBKgbaNTSIa137QSj_UKX-34YLu3ZNZI",
+      "expire_date": "2022-09-13T15:15:19.018Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "ip9sgh9d6ahp42f527m2744zkhk63msg",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oTh1r:UFDJ4VA3iiT5X2xLBTzds0NRz1WIXB6HAgLHEZ2x0bY",
+      "expire_date": "2022-09-15T10:02:31.247Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "j5ezacqawm5hgq5wpd098p09pg8pgsz3",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oT3HK:Xaw32sBcigUGzCIfJqtnJ6CxR3NBk0e0HWMAj6-2fO8",
+      "expire_date": "2022-09-13T15:35:50.941Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "khd0o977drmyassvj248ii62jg7ufbte",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oT4MK:R48VjXYLOm-pXmSu-RFqPnSTEXi6PAKfQD2av5PRq6A",
+      "expire_date": "2022-09-13T16:45:04.960Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "lfou9wv3qvih4vp98jnks09eg1lmdkul",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oTkDM:ZguGAKiEnmci7jnZUFKwyykfp0fRlbO2GlqNrElwllM",
+      "expire_date": "2022-09-15T13:26:36.004Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "ns7pl1hxhdwhanc6zv5iz0t1bnzc92kh",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oTjp4:x3wjJ-zm7RpSeaHYSkWcrCzGyvKGFPXVLwK1uYms_fk",
+      "expire_date": "2022-09-15T13:01:30.094Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "rby9dj9i1uphnkr64ofbu2ego0qytocc",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oSeJo:mqdmb65Tt361ZklSEwpEceTGD6Jnjgi1VpWHgZyunuo",
+      "expire_date": "2022-09-12T12:56:44.625Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "vwacgpjexq205k2mf07ilhcwrlpovgsv",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oT0zj:J_rRFQYy_NdVVck3gSgMPFHs9sfJFh2ELUJfWnpDTq8",
+      "expire_date": "2022-09-13T13:09:31.813Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "wanstc32efcp1epxxvbl4zzi92k4o2nd",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oT2MZ:N8zEo7l3F0CnkZYUdt4Z33F-DiLTuK_x_oGv7266ljc",
+      "expire_date": "2022-09-13T14:37:11.596Z"
+   }
+},
+{
+   "model": "sites.site",
+   "pk": 1,
+   "fields": {
+      "domain": "example.com",
+      "name": "example.com"
+   }
+},
+{
+   "model": "flatpages.flatpage",
+   "pk": 1,
+   "fields": {
+      "url": "/about/",
+      "title": "About us",
+      "content": "Test text page.",
+      "enable_comments": false,
+      "template_name": "pages/about.html",
+      "registration_required": false,
+      "sites": [
+         1
+      ]
+   }
+},
+{
+   "model": "movies.category",
+   "pk": 1,
+   "fields": {
+      "name": "Movies",
+      "name_uk": "Movies",
+      "name_en": null,
+      "description": "All movies of the world",
+      "description_uk": "All movies of the world",
+      "description_en": null,
+      "url": "movie"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 1,
+   "fields": {
+      "name": "Russell Crowe",
+      "name_uk": "Russell Crowe",
+      "name_en": null,
+      "age": 65,
+      "description": "The star of Gladiator, A Beautiful Mind, A Good Year and many more has made his first directorial debut with his film The Water Seeker. This drama is dedicated to the participation of Australia in the First World War on the side of the Entente. The film received average reviews from critics of various publications and the viewer himself. By and large, the film received the greatest response in the homeland of the actor, since the film frankly played on the patriotic feelings of the Australians.",
+      "description_uk": "The star of Gladiator, A Beautiful Mind, A Good Year and many more has made his first directorial debut with his film The Water Seeker. This drama is dedicated to the participation of Australia in the First World War on the side of the Entente. The film received average reviews from critics of various publications and the viewer himself. By and large, the film received the greatest response in the homeland of the actor, since the film frankly played on the patriotic feelings of the Australians.",
+      "description_en": null,
+      "image": "actors/Рассел-Кроу.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 2,
+   "fields": {
+      "name": "Ben Affleck",
+      "name_uk": "Ben Affleck",
+      "name_en": null,
+      "age": 35,
+      "description": "A good actor, the future new Batman, of course, could not resist sitting in the director's chair himself. Ben's first short film was a picture with the incredibly hilarious title \"I Killed My Lesbian Wife, Hung Her on a Meat Hook, and Now I Have a Three-Movie Deal with Disney.\" It was way back in 1993. Since then, the actor did not attempt to shoot himself until 2007, in which his work “Goodbye, baby, goodbye” was released. The National Board of Film Critics' Best Directorial Debut award spurred him on, and we ended up with films like Operation Argo, which won the Academy Award for Best Picture, and the very strong City of Thieves. Keep it up, Ben!",
+      "description_uk": "A good actor, the future new Batman, of course, could not resist sitting in the director's chair himself. Ben's first short film was a picture with the incredibly hilarious title \"I Killed My Lesbian Wife, Hung Her on a Meat Hook, and Now I Have a Three-Movie Deal with Disney.\" It was way back in 1993. Since then, the actor did not attempt to shoot himself until 2007, in which his work “Goodbye, baby, goodbye” was released. The National Board of Film Critics' Best Directorial Debut award spurred him on, and we ended up with films like Operation Argo, which won the Academy Award for Best Picture, and the very strong City of Thieves. Keep it up, Ben!",
+      "description_en": null,
+      "image": "actors/Бен-Афлек.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 3,
+   "fields": {
+      "name": "Ben Stiller",
+      "name_uk": "Ben Stiller",
+      "name_en": null,
+      "age": 42,
+      "description": "We ourselves, frankly, do not really like Stiller's work in the cinema. This applies not only to those films in which he plays as an actor, but also to films that he directed. Of course, there is a certain viewer who gets great pleasure from such a product. But it's not us. He became a director relatively long ago, his first film was Elvis Stories. Then there were The Cable Guy with Jim Carrey, The Model Male with Ben Stiller, Bad Troopers with Ben Stiller and Robert Downey Jr.  (happy exception), The Secret Life of Walter Mitty with Ben Stiller. In general, the director's handwriting on the face.",
+      "description_uk": "We ourselves, frankly, do not really like Stiller's work in the cinema. This applies not only to those films in which he plays as an actor, but also to films that he directed. Of course, there is a certain viewer who gets great pleasure from such a product. But it's not us. He became a director relatively long ago, his first film was Elvis Stories. Then there were The Cable Guy with Jim Carrey, The Model Male with Ben Stiller, Bad Troopers with Ben Stiller and Robert Downey Jr.  (happy exception), The Secret Life of Walter Mitty with Ben Stiller. In general, the director's handwriting on the face.",
+      "description_en": null,
+      "image": "actors/Бен-Стиллер.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 4,
+   "fields": {
+      "name": "Gary Oldman",
+      "name_uk": "Gary Oldman",
+      "name_en": null,
+      "age": 47,
+      "description": "Surely it is not worth representing Mr. Oldman separately. The amazing biography of this actor will surely make him immortal in people's memory for many years to come. However, it is too early to think about it - he probably still has everything ahead. Of course, he, like all geniuses, could not help but try himself in another field. His film debut Do Not Swallow received critical acclaim, a Palme d'Or nomination, and two BAFTA awards.",
+      "description_uk": "Surely it is not worth representing Mr. Oldman separately. The amazing biography of this actor will surely make him immortal in people's memory for many years to come. However, it is too early to think about it - he probably still has everything ahead. Of course, he, like all geniuses, could not help but try himself in another field. His film debut Do Not Swallow received critical acclaim, a Palme d'Or nomination, and two BAFTA awards.",
+      "description_en": null,
+      "image": "actors/Гэри-Олдман.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 5,
+   "fields": {
+      "name": "Mel Gibson",
+      "name_uk": "Mel Gibson",
+      "name_en": null,
+      "age": 55,
+      "description": "The eminent actor has always been unable to sit still. And, in between wife-beating scandals and great movie roles, he makes good movies. His debut work, The Man Without a Face, was well received by critics and grossed just over $24 million at the box office. His other works were also very popular. \"Braveheart\" and \"The Passion of the Christ\" can generally be called iconic films that have gone down in history. In 2016, we are waiting for another of his work \"For reasons of conscience\" . Let's see what happens.",
+      "description_uk": "The eminent actor has always been unable to sit still. And, in between wife-beating scandals and great movie roles, he makes good movies. His debut work, The Man Without a Face, was well received by critics and grossed just over $24 million at the box office. His other works were also very popular. \"Braveheart\" and \"The Passion of the Christ\" can generally be called iconic films that have gone down in history. In 2016, we are waiting for another of his work \"For reasons of conscience\" . Let's see what happens.",
+      "description_en": null,
+      "image": "actors/Мел-Гибсон.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 6,
+   "fields": {
+      "name": "Arnold Schwarzenegger",
+      "name_uk": "Arnold Schwarzenegger",
+      "name_en": null,
+      "age": 45,
+      "description": "The Schwarzenegger family was Catholic and attended church every Sunday. After the German Anschluss of Austria in 1938, Gustav Schwarzenegger joined the Nazi Party of Austria and SA. During the war, he served in the military police (Feldgendarmerie), where he received the rank of Hauptfeldfebel (senior sergeant).\r\n\r\nAfter the war, he was allowed to work as the chief of the local police because there was no evidence that he had committed war crimes. The family lived poorly, Arnold calls the purchase of a refrigerator one of the brightest memories of his youth.\r\n\"My parents were very poor, and the house had no central heating, no television, and even a toilet - this room was located in the backyard. \"\r\n\r\nUnder the influence of his father, Arnold began to train for the game of football, but at the age of 14 he preferred the career of a bodybuilder. He was inspired by such bodybuilding idols as Reg Park, Steve Reeves and Johnny Weissmuller, whom he often saw in the movies.\r\n\r\nHe goes to the gym every day, and although the club is closed on Saturdays and Sundays, Arnold still works out on weekends; he climbed the ladder through the window.[2]\r\n\r\nIn 1971, Arnold's brother Meinhard died in a car accident, he was intoxicated at the time of the accident. Arnold does not appear at the funeral. Meinhard was married to Erika Knapp and left behind a three-year-old son, Patrick.\r\n\r\nA year later, Gustav Schwarzenegger dies from a stroke, and Arnold does not appear at his funeral. As Arnold himself later said, \"the system of raising children in Austria and Germany was very different from the American one, the main thing in it was to educate discipline. I was always a non-conformist, and I was often punished, beaten with a belt, put in a corner. The way my father treated me can be called child abuse.\"",
+      "description_uk": "The Schwarzenegger family was Catholic and attended church every Sunday. After the German Anschluss of Austria in 1938, Gustav Schwarzenegger joined the Nazi Party of Austria and SA. During the war, he served in the military police (Feldgendarmerie), where he received the rank of Hauptfeldfebel (senior sergeant).\r\n\r\nAfter the war, he was allowed to work as the chief of the local police because there was no evidence that he had committed war crimes. The family lived poorly, Arnold calls the purchase of a refrigerator one of the brightest memories of his youth.\r\n\"My parents were very poor, and the house had no central heating, no television, and even a toilet - this room was located in the backyard. \"\r\n\r\nUnder the influence of his father, Arnold began to train for the game of football, but at the age of 14 he preferred the career of a bodybuilder. He was inspired by such bodybuilding idols as Reg Park, Steve Reeves and Johnny Weissmuller, whom he often saw in the movies.\r\n\r\nHe goes to the gym every day, and although the club is closed on Saturdays and Sundays, Arnold still works out on weekends; he climbed the ladder through the window.[2]\r\n\r\nIn 1971, Arnold's brother Meinhard died in a car accident, he was intoxicated at the time of the accident. Arnold does not appear at the funeral. Meinhard was married to Erika Knapp and left behind a three-year-old son, Patrick.\r\n\r\nA year later, Gustav Schwarzenegger dies from a stroke, and Arnold does not appear at his funeral. As Arnold himself later said, \"the system of raising children in Austria and Germany was very different from the American one, the main thing in it was to educate discipline. I was always a non-conformist, and I was often punished, beaten with a belt, put in a corner. The way my father treated me can be called child abuse.\"",
+      "description_en": null,
+      "image": "actors/800px-Arnold_Schwarzenegger_by_Gage_Skidmore_3.jpg"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 1,
+   "fields": {
+      "name": "Comedy",
+      "name_uk": "Comedy",
+      "name_en": null,
+      "description": "comedies",
+      "description_uk": "comedies",
+      "description_en": null,
+      "url": "comedy"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 2,
+   "fields": {
+      "name": "Action Film",
+      "name_uk": "Action Film",
+      "name_en": null,
+      "description": "Action Films",
+      "description_uk": "Action Films",
+      "description_en": null,
+      "url": "action_film"
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 1,
+   "fields": {
+      "title": "Terminator",
+      "title_uk": "Terminator",
+      "title_en": null,
+      "tagline": "Your future in his hands",
+      "tagline_uk": "Your future in his hands",
+      "tagline_en": "",
+      "description": "The fantastic blockbuster \"Terminator: Dark Fate\" continues to tell about the dangerous adventures of Sarah Connor, who prevented the day of judgment and saved humanity from imminent death in the future, along with her son John. But years later, it turns out that although Sarah Connor and John changed the future, they did not change the fate of mankind. In the future, a certain girl Dani Ramos will become the leader of the resistance, so a resistance fighter with enhanced cybernetic capabilities of Grace's body arrives to protect her from the future. True, it will be very difficult for Grace to cope alone in the fight against the latest terminator model. Luckily, real Terminator hunter Sarah Connor comes to the rescue.",
+      "description_uk": "The fantastic blockbuster \"Terminator: Dark Fate\" continues to tell about the dangerous adventures of Sarah Connor, who prevented the day of judgment and saved humanity from imminent death in the future, along with her son John. But years later, it turns out that although Sarah Connor and John changed the future, they did not change the fate of mankind. In the future, a certain girl Dani Ramos will become the leader of the resistance, so a resistance fighter with enhanced cybernetic capabilities of Grace's body arrives to protect her from the future. True, it will be very difficult for Grace to cope alone in the fight against the latest terminator model. Luckily, real Terminator hunter Sarah Connor comes to the rescue.",
+      "description_en": null,
+      "poster": "movies/Терминатор0.jpg",
+      "year": 1984,
+      "country": "China, USA",
+      "country_uk": "China, USA",
+      "country_en": null,
+      "world_premiere": "2029-06-23",
+      "budget": 6400000,
+      "fees_in_usa": 3837120,
+      "fess_in_world": 3837120,
+      "category": 1,
+      "url": "terminator",
+      "draft": false,
+      "directors": [
+         1
+      ],
+      "actors": [
+         6
+      ],
+      "genres": [
+         2
+      ]
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 2,
+   "fields": {
+      "title": "Terminator 2: Judgment Day",
+      "title_uk": "Terminator 2: Judgment Day",
+      "title_en": null,
+      "tagline": "Same Make. Same Model, New Mission",
+      "tagline_uk": "Same Make. Same Model, New Mission",
+      "tagline_en": "",
+      "description": "<p><em><strong>The action of the feature film &quot;Terminator 2: Judgment Day&quot; takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The action of the feature film &quot;Terminator 2: Judgment Day&quot; takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The film was awarded 4 Oscars and 5 awards from the American Academy of Science Fiction Films, and the catchphrase &quot;Hasta la vista, baby&quot; is probably known to every inhabitant of the planet.</strong></em></p>\r\n\r\n<p style=\"text-align:center\"><em><strong><iframe frameborder=\"0\" height=\"400\" scrolling=\"no\" src=\"https://www.youtube.com/embed/A36LahZNUiE\" width=\"500\"></iframe></strong></em></p>",
+      "description_uk": "<p><em><strong>The action of the feature film &quot;Terminator 2: Judgment Day&quot; takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The action of the feature film &quot;Terminator 2: Judgment Day&quot; takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The film was awarded 4 Oscars and 5 awards from the American Academy of Science Fiction Films, and the catchphrase &quot;Hasta la vista, baby&quot; is probably known to every inhabitant of the planet.</strong></em></p>\r\n\r\n<p style=\"text-align:center\"><em><strong><iframe frameborder=\"0\" height=\"400\" scrolling=\"no\" src=\"https://www.youtube.com/embed/A36LahZNUiE\" width=\"500\"></iframe></strong></em></p>",
+      "description_en": null,
+      "poster": "movies/Терм20.jpg",
+      "year": 1991,
+      "country": "USA, France",
+      "country_uk": "USA, France",
+      "country_en": null,
+      "world_premiere": "1991-12-23",
+      "budget": 2000000,
+      "fees_in_usa": 2048433,
+      "fess_in_world": 5169500,
+      "category": 1,
+      "url": "terminator_2",
+      "draft": false,
+      "directors": [
+         2
+      ],
+      "actors": [
+         6
+      ],
+      "genres": [
+         2
+      ]
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 3,
+   "fields": {
+      "title": "Doctor Strange 2 Into the Multiverse of Madness",
+      "title_uk": "Doctor Strange 2 Into the Multiverse of Madness",
+      "title_en": null,
+      "tagline": "horror is coming",
+      "tagline_uk": "horror is coming",
+      "tagline_en": "",
+      "description": "<p><strong>The main character is a master of the mystical arts, having learned the essence of the multiverse, and became the supreme magician. Faced with the most terrifying mysterious creature named Nightmare, who almost killed him in the first encounter, the protagonist continues the search for the mysterious artifact of the Time Stone. The Doctor survived thanks to the intervention of the Ancient One. Nightmare is an evil strong creature, whose important ability is to capture the consciousness of a sleeping person, he torments his victim, sending him to the realm of horrors in a dream. In addition, he controls cruel fantastic creatures, calling them from other worlds. But the most terrible thing is that this evil cannot be destroyed as long as there are subjects capable of feeling, thinking and dreaming. The film involves the return of old characters, Wong&#39;s permanent assistant, and the emergence of new characters, a clash with a sorceress drawing immense strength from chaos. Once Scarlet Witch&#39;s superhero powers run amok, the main movie characters will embark on a journey into parallel realities. Unforgettable journeys through other dimensions, meeting with alternative heroes of the past covers the multiverse of madness.</strong></p>",
+      "description_uk": "<p><strong>The main character is a master of the mystical arts, having learned the essence of the multiverse, and became the supreme magician. Faced with the most terrifying mysterious creature named Nightmare, who almost killed him in the first encounter, the protagonist continues the search for the mysterious artifact of the Time Stone. The Doctor survived thanks to the intervention of the Ancient One. Nightmare is an evil strong creature, whose important ability is to capture the consciousness of a sleeping person, he torments his victim, sending him to the realm of horrors in a dream. In addition, he controls cruel fantastic creatures, calling them from other worlds. But the most terrible thing is that this evil cannot be destroyed as long as there are subjects capable of feeling, thinking and dreaming. The film involves the return of old characters, Wong&#39;s permanent assistant, and the emergence of new characters, a clash with a sorceress drawing immense strength from chaos. Once Scarlet Witch&#39;s superhero powers run amok, the main movie characters will embark on a journey into parallel realities. Unforgettable journeys through other dimensions, meeting with alternative heroes of the past covers the multiverse of madness.</strong></p>",
+      "description_en": null,
+      "poster": "movies/doktor-strendzh-v-multivselennoy-bezumiya.jpg",
+      "year": 2019,
+      "country": "USA",
+      "country_uk": "USA",
+      "country_en": null,
+      "world_premiere": "2022-08-29",
+      "budget": 5000000,
+      "fees_in_usa": 456900,
+      "fess_in_world": 5200000,
+      "category": 1,
+      "url": "doctor_strange_2",
+      "draft": false,
+      "directors": [
+         4
+      ],
+      "actors": [
+         2
+      ],
+      "genres": [
+         2
+      ]
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 4,
+   "fields": {
+      "title": "Terminator 3",
+      "title_uk": "Terminator 3",
+      "title_en": null,
+      "tagline": "Same Make. Same Model, New Mission",
+      "tagline_uk": "Same Make. Same Model, New Mission",
+      "tagline_en": "",
+      "description": "The action of the feature film \"Terminator 2: Judgment Day\" takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The action of the feature film \"Terminator 2: Judgment Day\" takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The film was awarded 4 Oscars and 5 awards from the American Academy of Science Fiction Films, and the catchphrase \"Hasta la vista, baby\" is probably known to every inhabitant of the planet.",
+      "description_uk": "The action of the feature film \"Terminator 2: Judgment Day\" takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The action of the feature film \"Terminator 2: Judgment Day\" takes place more than ten years after the first meeting of Sarah Connor with the terminator, who tried to destroy her and prevent the birth of her son John. Sarah survived and gave birth to a son, but soon ended up in a psychiatric hospital, and John lives with foster parents. But the future is inexorably approaching and the day of judgment will come very soon, in just a couple of years. The film was awarded 4 Oscars and 5 awards from the American Academy of Science Fiction Films, and the catchphrase \"Hasta la vista, baby\" is probably known to every inhabitant of the planet.",
+      "description_en": null,
+      "poster": "movies/Т33.jpg",
+      "year": 2003,
+      "country": "USA, France",
+      "country_uk": "USA, France",
+      "country_en": null,
+      "world_premiere": "2003-06-30",
+      "budget": 2000000,
+      "fees_in_usa": 2048433,
+      "fess_in_world": 5169500,
+      "category": 1,
+      "url": "terminator_3",
+      "draft": false,
+      "directors": [
+         2
+      ],
+      "actors": [
+         6
+      ],
+      "genres": [
+         2
+      ]
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 1,
+   "fields": {
+      "title": "Terminator k1",
+      "title_uk": "Terminator k1",
+      "title_en": null,
+      "description": "Terminator",
+      "description_uk": "Terminator",
+      "description_en": null,
+      "image": "movie_shots/Т1.jpg",
+      "movie": 1
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 2,
+   "fields": {
+      "title": "Terminator k2",
+      "title_uk": "Terminator k2",
+      "title_en": null,
+      "description": "Terminator",
+      "description_uk": "Terminator",
+      "description_en": null,
+      "image": "movie_shots/Т2.jpg",
+      "movie": 1
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 3,
+   "fields": {
+      "title": "Terminator k3",
+      "title_uk": "Terminator k3",
+      "title_en": null,
+      "description": "Terminator",
+      "description_uk": "Terminator",
+      "description_en": null,
+      "image": "movie_shots/Т3.jpg",
+      "movie": 1
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 4,
+   "fields": {
+      "title": "Terminator 2 (k1)",
+      "title_uk": "Terminator 2 (k1)",
+      "title_en": null,
+      "description": "Terminator 2",
+      "description_uk": "Terminator 2",
+      "description_en": null,
+      "image": "movie_shots/Т21.jpg",
+      "movie": 2
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 5,
+   "fields": {
+      "title": "Terminator 2 (k2)",
+      "title_uk": "Terminator 2 (k2)",
+      "title_en": null,
+      "description": "Terminator 2",
+      "description_uk": "Terminator 2",
+      "description_en": null,
+      "image": "movie_shots/Т22.jpg",
+      "movie": 2
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 6,
+   "fields": {
+      "title": "Terminator 2 (k3)",
+      "title_uk": "Terminator 2 (k3)",
+      "title_en": null,
+      "description": "Terminator 2",
+      "description_uk": "Terminator 2",
+      "description_en": null,
+      "image": "movie_shots/Т23.jpg",
+      "movie": 2
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 7,
+   "fields": {
+      "title": "Doctor Strange 2 (k1)",
+      "title_uk": "Doctor Strange 2 (k1)",
+      "title_en": null,
+      "description": "Doctor Strange 2",
+      "description_uk": "Doctor Strange 2",
+      "description_en": null,
+      "image": "movie_shots/Д1.jpg",
+      "movie": 3
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 8,
+   "fields": {
+      "title": "Doctor Strange 2 (k2)",
+      "title_uk": "Doctor Strange 2 (k2)",
+      "title_en": null,
+      "description": "Doctor Strange 2",
+      "description_uk": "Doctor Strange 2",
+      "description_en": null,
+      "image": "movie_shots/Д2.jpg",
+      "movie": 3
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 9,
+   "fields": {
+      "title": "Doctor Strange 2 (k3)",
+      "title_uk": "Doctor Strange 2 (k3)",
+      "title_en": null,
+      "description": "Doctor Strange 2",
+      "description_uk": "Doctor Strange 2",
+      "description_en": null,
+      "image": "movie_shots/Д3.jpg",
+      "movie": 3
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 1,
+   "fields": {
+      "value": 1
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 2,
+   "fields": {
+      "value": 2
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 3,
+   "fields": {
+      "value": 3
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 4,
+   "fields": {
+      "value": 4
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 5,
+   "fields": {
+      "value": 5
+   }
+},
+{
+   "model": "movies.rating",
+   "pk": 1,
+   "fields": {
+      "ip": "127.0.0.1",
+      "star": 1,
+      "movie": 1
+   }
+},
+{
+   "model": "movies.rating",
+   "pk": 2,
+   "fields": {
+      "ip": "127.0.0.1",
+      "star": 3,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 1,
+   "fields": {
+      "email": "mailoman@exam.com",
+      "name": "Mail Oman",
+      "text": "Test review",
+      "parent": null,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 2,
+   "fields": {
+      "email": "harldkarlos@exam.com",
+      "name": "Harld Karlos",
+      "text": "test 2",
+      "parent": null,
+      "movie": 1
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 3,
+   "fields": {
+      "email": "harldkarlos@exam.com",
+      "name": "Harld Karlos",
+      "text": "Abrakadabra ahaha",
+      "parent": null,
+      "movie": 1
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 4,
+   "fields": {
+      "email": "mailoman@exam.com",
+      "name": "Mail Oman",
+      "text": "Cool film, yea, astalavista baby",
+      "parent": null,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 5,
+   "fields": {
+      "email": "mailoman@exam.com",
+      "name": "Mail Oman",
+      "text": "Yahooo",
+      "parent": null,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 6,
+   "fields": {
+      "email": "hanmayujiro@exam.com",
+      "name": "Hanma Yujiro",
+      "text": "Hi, it is cool.",
+      "parent": null,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 7,
+   "fields": {
+      "email": "hanmayujiro@exam.com",
+      "name": "Hanma Yujiro",
+      "text": "Mail Oman, Yes, I agree too.",
+      "parent": 4,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 8,
+   "fields": {
+      "email": "",
+      "name": "",
+      "text": "Test review",
+      "parent": null,
+      "movie": 4
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 9,
+   "fields": {
+      "email": "",
+      "name": "",
+      "text": "Cool film, yea, astalavista baby",
+      "parent": null,
+      "movie": 4
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 10,
+   "fields": {
+      "email": "",
+      "name": "",
+      "text": "Yahooo",
+      "parent": null,
+      "movie": 4
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 11,
+   "fields": {
+      "email": "",
+      "name": "",
+      "text": "Hi, it is cool.",
+      "parent": null,
+      "movie": 4
+   }
+},
+{
+   "model": "movies.reviews",
+   "pk": 12,
+   "fields": {
+      "email": "",
+      "name": "",
+      "text": "Mail Oman, Yes, I agree too.",
+      "parent": 4,
+      "movie": 4
+   }
+},
+{
+   "model": "contact.contact",
+   "pk": 1,
+   "fields": {
+      "email": "vi@exam.com",
+      "date": "2022-09-01T16:05:08.304Z"
+   }
+},
+{
+   "model": "contact.contact",
+   "pk": 2,
+   "fields": {
+      "email": "alaha@exam.com",
+      "date": "2022-09-01T16:06:57.937Z"
+   }
+},
+{
+   "model": "account.emailaddress",
+   "pk": 1,
+   "fields": {
+      "user": 2,
+      "email": "socialpat@exam.com",
+      "verified": false,
+      "primary": true
+   }
+}
+]
