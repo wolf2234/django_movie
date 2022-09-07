@@ -66,7 +66,7 @@ class MovieDetailSerializer(serializers.ModelSerializer):
         exclude = ("draft",)
 
 
-class CreateRatingSerialzer(serializers.ModelSerializer):
+class CreateRatingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Rating
         fields = ("star", "movie")
