@@ -1,0 +1,2238 @@
+[
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2022-09-05T14:20:10.068Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Mikkelsen, Mads",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2022-09-05T14:20:43.469Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Dancy, Hugh",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2022-09-05T14:21:15.262Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Pattinson, Robert",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2022-09-05T14:22:17.302Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Johnson, Dwayne",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2022-09-05T14:23:56.955Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Reeves, Keanu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2022-09-05T14:26:20.055Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Paul Rudd",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2022-09-05T14:27:43.100Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Affleck, Ben",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2022-09-05T14:29:50.665Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "comedy",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2022-09-05T14:30:02.113Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "cartoon",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2022-09-05T14:30:14.204Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Comedy",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2022-09-05T14:30:19.843Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Cartoon",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2022-09-05T14:30:30.360Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Adventure",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2022-09-05T14:30:49.069Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Family",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2022-09-05T14:31:14.245Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Action movie",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2022-09-05T14:31:35.138Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "Crime",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2022-09-05T14:31:55.223Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "Thriller",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2022-09-05T14:32:14.037Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "Detective",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2022-09-05T14:35:30.573Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Movies",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2022-09-05T14:36:21.956Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "TV series",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2022-09-05T14:47:06.812Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Hannibal",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"hannibal shot-1\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"hannibal shot-2\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"hannibal shot-3\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2022-09-05T14:53:46.777Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Super pets",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"Super pets shot-1\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"Super pets shot-2\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"Super pets shot-2\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2022-09-05T15:02:55.503Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "John Wick 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"John Wick 3 shot-1\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"John Wick 3 shot-2\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"John Wick 3 shot-3\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2022-09-05T15:08:44.038Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Luck",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"Luck shot-1\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"Luck shot-2\"}}, {\"added\": {\"name\": \"Shot from the movie\", \"object\": \"Luck shot-3\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2022-09-05T15:53:00.867Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Luck",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Genres\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2022-09-05T15:53:28.210Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Super pets",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Genres\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2022-09-05T15:53:53.971Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "John Wick 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Genres\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2022-09-05T15:54:35.764Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Hannibal",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Genres\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2022-09-06T11:56:52.566Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": " - John Wick 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2022-09-06T12:56:23.314Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2022-09-06T12:56:25.142Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "3 - John Wick 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2022-09-06T12:56:43.667Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "3 - John Wick 3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2022-09-06T12:56:52.305Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2022-09-06T13:09:19.848Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2022-09-06T13:09:26.397Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2022-09-06T13:09:30.511Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2022-09-06T13:09:37.130Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "5",
+      "object_repr": "4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2022-09-06T13:09:46.274Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "6",
+      "object_repr": "5",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2022-09-06T15:04:06.237Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "5 - Super pets",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add Movie",
+      "content_type": 7,
+      "codename": "add_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change Movie",
+      "content_type": 7,
+      "codename": "change_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete Movie",
+      "content_type": 7,
+      "codename": "delete_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view Movie",
+      "content_type": 7,
+      "codename": "view_movie"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can add Review",
+      "content_type": 8,
+      "codename": "add_review"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can change Review",
+      "content_type": 8,
+      "codename": "change_review"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can delete Review",
+      "content_type": 8,
+      "codename": "delete_review"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can view Review",
+      "content_type": 8,
+      "codename": "view_review"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can add Category",
+      "content_type": 9,
+      "codename": "add_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can change Category",
+      "content_type": 9,
+      "codename": "change_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can delete Category",
+      "content_type": 9,
+      "codename": "delete_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can view Category",
+      "content_type": 9,
+      "codename": "view_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add Actor and director",
+      "content_type": 10,
+      "codename": "add_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change Actor and director",
+      "content_type": 10,
+      "codename": "change_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete Actor and director",
+      "content_type": 10,
+      "codename": "delete_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can view Actor and director",
+      "content_type": 10,
+      "codename": "view_actor"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can add Genre",
+      "content_type": 11,
+      "codename": "add_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can change Genre",
+      "content_type": 11,
+      "codename": "change_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can delete Genre",
+      "content_type": 11,
+      "codename": "delete_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can view Genre",
+      "content_type": 11,
+      "codename": "view_genre"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can add Shot from the movie",
+      "content_type": 12,
+      "codename": "add_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 46,
+   "fields": {
+      "name": "Can change Shot from the movie",
+      "content_type": 12,
+      "codename": "change_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 47,
+   "fields": {
+      "name": "Can delete Shot from the movie",
+      "content_type": 12,
+      "codename": "delete_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 48,
+   "fields": {
+      "name": "Can view Shot from the movie",
+      "content_type": 12,
+      "codename": "view_movieshots"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 49,
+   "fields": {
+      "name": "Can add Star rating",
+      "content_type": 13,
+      "codename": "add_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 50,
+   "fields": {
+      "name": "Can change Star rating",
+      "content_type": 13,
+      "codename": "change_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 51,
+   "fields": {
+      "name": "Can delete Star rating",
+      "content_type": 13,
+      "codename": "delete_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 52,
+   "fields": {
+      "name": "Can view Star rating",
+      "content_type": 13,
+      "codename": "view_ratingstar"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 53,
+   "fields": {
+      "name": "Can add Rating",
+      "content_type": 14,
+      "codename": "add_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 54,
+   "fields": {
+      "name": "Can change Rating",
+      "content_type": 14,
+      "codename": "change_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 55,
+   "fields": {
+      "name": "Can delete Rating",
+      "content_type": 14,
+      "codename": "delete_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 56,
+   "fields": {
+      "name": "Can view Rating",
+      "content_type": 14,
+      "codename": "view_rating"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 57,
+   "fields": {
+      "name": "Can add Token",
+      "content_type": 15,
+      "codename": "add_token"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 58,
+   "fields": {
+      "name": "Can change Token",
+      "content_type": 15,
+      "codename": "change_token"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 59,
+   "fields": {
+      "name": "Can delete Token",
+      "content_type": 15,
+      "codename": "delete_token"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 60,
+   "fields": {
+      "name": "Can view Token",
+      "content_type": 15,
+      "codename": "view_token"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 61,
+   "fields": {
+      "name": "Can add token",
+      "content_type": 16,
+      "codename": "add_tokenproxy"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 62,
+   "fields": {
+      "name": "Can change token",
+      "content_type": 16,
+      "codename": "change_tokenproxy"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 63,
+   "fields": {
+      "name": "Can delete token",
+      "content_type": 16,
+      "codename": "delete_tokenproxy"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 64,
+   "fields": {
+      "name": "Can view token",
+      "content_type": 16,
+      "codename": "view_tokenproxy"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 65,
+   "fields": {
+      "name": "Can add application",
+      "content_type": 17,
+      "codename": "add_application"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 66,
+   "fields": {
+      "name": "Can change application",
+      "content_type": 17,
+      "codename": "change_application"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 67,
+   "fields": {
+      "name": "Can delete application",
+      "content_type": 17,
+      "codename": "delete_application"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 68,
+   "fields": {
+      "name": "Can view application",
+      "content_type": 17,
+      "codename": "view_application"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 69,
+   "fields": {
+      "name": "Can add access token",
+      "content_type": 18,
+      "codename": "add_accesstoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 70,
+   "fields": {
+      "name": "Can change access token",
+      "content_type": 18,
+      "codename": "change_accesstoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 71,
+   "fields": {
+      "name": "Can delete access token",
+      "content_type": 18,
+      "codename": "delete_accesstoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 72,
+   "fields": {
+      "name": "Can view access token",
+      "content_type": 18,
+      "codename": "view_accesstoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 73,
+   "fields": {
+      "name": "Can add grant",
+      "content_type": 19,
+      "codename": "add_grant"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 74,
+   "fields": {
+      "name": "Can change grant",
+      "content_type": 19,
+      "codename": "change_grant"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 75,
+   "fields": {
+      "name": "Can delete grant",
+      "content_type": 19,
+      "codename": "delete_grant"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 76,
+   "fields": {
+      "name": "Can view grant",
+      "content_type": 19,
+      "codename": "view_grant"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 77,
+   "fields": {
+      "name": "Can add refresh token",
+      "content_type": 20,
+      "codename": "add_refreshtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 78,
+   "fields": {
+      "name": "Can change refresh token",
+      "content_type": 20,
+      "codename": "change_refreshtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 79,
+   "fields": {
+      "name": "Can delete refresh token",
+      "content_type": 20,
+      "codename": "delete_refreshtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 80,
+   "fields": {
+      "name": "Can view refresh token",
+      "content_type": 20,
+      "codename": "view_refreshtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 81,
+   "fields": {
+      "name": "Can add id token",
+      "content_type": 21,
+      "codename": "add_idtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 82,
+   "fields": {
+      "name": "Can change id token",
+      "content_type": 21,
+      "codename": "change_idtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 83,
+   "fields": {
+      "name": "Can delete id token",
+      "content_type": 21,
+      "codename": "delete_idtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 84,
+   "fields": {
+      "name": "Can view id token",
+      "content_type": 21,
+      "codename": "view_idtoken"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 85,
+   "fields": {
+      "name": "Can add association",
+      "content_type": 22,
+      "codename": "add_association"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 86,
+   "fields": {
+      "name": "Can change association",
+      "content_type": 22,
+      "codename": "change_association"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 87,
+   "fields": {
+      "name": "Can delete association",
+      "content_type": 22,
+      "codename": "delete_association"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 88,
+   "fields": {
+      "name": "Can view association",
+      "content_type": 22,
+      "codename": "view_association"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 89,
+   "fields": {
+      "name": "Can add code",
+      "content_type": 23,
+      "codename": "add_code"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 90,
+   "fields": {
+      "name": "Can change code",
+      "content_type": 23,
+      "codename": "change_code"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 91,
+   "fields": {
+      "name": "Can delete code",
+      "content_type": 23,
+      "codename": "delete_code"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 92,
+   "fields": {
+      "name": "Can view code",
+      "content_type": 23,
+      "codename": "view_code"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 93,
+   "fields": {
+      "name": "Can add nonce",
+      "content_type": 24,
+      "codename": "add_nonce"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 94,
+   "fields": {
+      "name": "Can change nonce",
+      "content_type": 24,
+      "codename": "change_nonce"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 95,
+   "fields": {
+      "name": "Can delete nonce",
+      "content_type": 24,
+      "codename": "delete_nonce"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 96,
+   "fields": {
+      "name": "Can view nonce",
+      "content_type": 24,
+      "codename": "view_nonce"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 97,
+   "fields": {
+      "name": "Can add user social auth",
+      "content_type": 25,
+      "codename": "add_usersocialauth"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 98,
+   "fields": {
+      "name": "Can change user social auth",
+      "content_type": 25,
+      "codename": "change_usersocialauth"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 99,
+   "fields": {
+      "name": "Can delete user social auth",
+      "content_type": 25,
+      "codename": "delete_usersocialauth"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 100,
+   "fields": {
+      "name": "Can view user social auth",
+      "content_type": 25,
+      "codename": "view_usersocialauth"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 101,
+   "fields": {
+      "name": "Can add partial",
+      "content_type": 26,
+      "codename": "add_partial"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 102,
+   "fields": {
+      "name": "Can change partial",
+      "content_type": 26,
+      "codename": "change_partial"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 103,
+   "fields": {
+      "name": "Can delete partial",
+      "content_type": 26,
+      "codename": "delete_partial"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 104,
+   "fields": {
+      "name": "Can view partial",
+      "content_type": 26,
+      "codename": "view_partial"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$390000$1KCUfvKo4iIDS3Xk12sezh$jRk9wHLTIalC7MmvJzhQJAGVxz81SG7LEceyg/xYrLQ=",
+      "last_login": "2022-09-07T11:24:12.813Z",
+      "is_superuser": true,
+      "username": "drf_viktor",
+      "first_name": "",
+      "last_name": "",
+      "email": "drf_viktor@exam.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-09-05T10:34:58.966Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "movies",
+      "model": "movie"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "movies",
+      "model": "review"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "movies",
+      "model": "category"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "movies",
+      "model": "actor"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "movies",
+      "model": "genre"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "movies",
+      "model": "movieshots"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "movies",
+      "model": "ratingstar"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "movies",
+      "model": "rating"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 15,
+   "fields": {
+      "app_label": "authtoken",
+      "model": "token"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 16,
+   "fields": {
+      "app_label": "authtoken",
+      "model": "tokenproxy"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 17,
+   "fields": {
+      "app_label": "oauth2_provider",
+      "model": "application"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 18,
+   "fields": {
+      "app_label": "oauth2_provider",
+      "model": "accesstoken"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 19,
+   "fields": {
+      "app_label": "oauth2_provider",
+      "model": "grant"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 20,
+   "fields": {
+      "app_label": "oauth2_provider",
+      "model": "refreshtoken"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 21,
+   "fields": {
+      "app_label": "oauth2_provider",
+      "model": "idtoken"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 22,
+   "fields": {
+      "app_label": "social_django",
+      "model": "association"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 23,
+   "fields": {
+      "app_label": "social_django",
+      "model": "code"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 24,
+   "fields": {
+      "app_label": "social_django",
+      "model": "nonce"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 25,
+   "fields": {
+      "app_label": "social_django",
+      "model": "usersocialauth"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 26,
+   "fields": {
+      "app_label": "social_django",
+      "model": "partial"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "2qusmsol8ua9jiovtwehlndw4lnir57y",
+   "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyHQFQoevfcbyO6yStXQpLQn47_bJj3obTLvzbxVwnUpaW0ypzGri7Lq9NsR8lPqDvID633SPNVlHknvij5o08OU5XU93L-Dgq1sawMINhhxwTsCDy7YaLvOhR4ygY3eOz4b6gG3JEwGM0ViQbFwY3bq8wWlUzdj:1oVYKD:vK1d3P0fI11nKtb1EkM6ml5qrT1ZxE6qgtNarZvuVFs",
+      "expire_date": "2022-09-20T13:09:09.771Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "dodhg84bnbxiuq5kx78997mf1wmbej68",
+   "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyHQFQoevfcbyO6yStXQpLQn47_bJj3obTLvzbxVwnUpaW0ypzGri7Lq9NsR8lPqDvID633SPNVlHknvij5o08OU5XU93L-Dgq1sawMINhhxwTsCDy7YaLvOhR4ygY3eOz4b6gG3JEwGM0ViQbFwY3bq8wWlUzdj:1oVVUf:i3a_qnfLjk2N_7gKBALeGWaFQzS5BfbJNKLIO1_Ssx4",
+      "expire_date": "2022-09-20T10:07:45.641Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "l1iv8hwm1lsllw8kwj6y62c263fh5c4c",
+   "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyHQFQoevfcbyO6yStXQpLQn47_bJj3obTLvzbxVwnUpaW0ypzGri7Lq9NsR8lPqDvID633SPNVlHknvij5o08OU5XU93L-Dgq1sawMINhhxwTsCDy7YaLvOhR4ygY3eOz4b6gG3JEwGM0ViQbFwY3bq8wWlUzdj:1oVYCS:NyPiJykj4PxS5YQu4hLLsrJPpQm5nvMxWdhc-uPqGRo",
+      "expire_date": "2022-09-20T13:01:08.096Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "ms9ikt2nj96sk0ff32qlo5687jm7moev",
+   "fields": {
+      "session_data": ".eJxVjMEOwiAQRP-FsyHQFQoevfcbyO6yStXQpLQn47_bJj3obTLvzbxVwnUpaW0ypzGri7Lq9NsR8lPqDvID633SPNVlHknvij5o08OU5XU93L-Dgq1sawMINhhxwTsCDy7YaLvOhR4ygY3eOz4b6gG3JEwGM0ViQbFwY3bq8wWlUzdj:1oV9aI:8wACtE76zdtl_tzqVUpYEY282rrIi9ixcWQapS6p4GM",
+      "expire_date": "2022-09-19T10:44:06.536Z"
+   }
+},
+{
+   "model": "movies.category",
+   "pk": 1,
+   "fields": {
+      "name": "Movies",
+      "description": "Movies",
+      "url": "movies"
+   }
+},
+{
+   "model": "movies.category",
+   "pk": 2,
+   "fields": {
+      "name": "TV series",
+      "description": "TV series",
+      "url": "tv_series"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 1,
+   "fields": {
+      "name": "Mikkelsen, Mads",
+      "age": 40,
+      "description": "Danish actor. Known for playing antagonist characters in films such as Doctor Strange, Casino Royale, and the television series Hannibal (2013-2015). In 2022, he played the villain Gellert Grindelwald in Fantastic Beasts: The Dumbledore Mysteries after Johnny Depp's \"cancellation\". Awarded the Prize of the Cannes Film Festival for his role in the film \"The Hunt\" directed by Thomas Vinterberg. He was personally awarded the Dannebrog Order by Queen Margrethe II of Denmark on April 15, 2010[2].",
+      "image": "actors/N1.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 2,
+   "fields": {
+      "name": "Dancy, Hugh",
+      "age": 30,
+      "description": "Hugh Dancy was born in Stoke-on-Trent, Staffordshire and grew up in Newcastle-under-Lyme[3][4]. His mother, Sarah Ann Dancy (née Birley; born 1952), is a publisher[4] and his father, Jonathan Dancy (born 1946), is a professor of philosophy. He has a younger brother and sister[5]. Dancy graduated from Winchester College and St. Peter's College, Oxford University. At the age of 18, he played in Shakespeare's play Twelfth Night.",
+      "image": "actors/N2.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 3,
+   "fields": {
+      "name": "Pattinson, Robert",
+      "age": 28,
+      "description": "Robert Thomas Pattinson was born on May 13, 1986 in London, UK. His mother, Claire, worked for a modeling agency, and his father, Richard, exports vintage cars from the United States[1]. Pattinson attended the \"Tower House School\" (a school for boys), and from the age of 12 - Harrodian School [2]. He was involved in theater as a non-professional (amateur) actor through the Barnes Theater Company. After some experience here as an actor in the background, he was invited to more significant roles. He caught the attention of an acting agent after producing Tess of the D'Urbervilles and has been on the lookout for professional roles ever since. Since then, he has been recruited to stage an amateur version of Macbeth at the Old Sorting Office Arts Centre, while at the same time pursuing a modeling career. Pattinson has two older sisters: Victoria and Lizzy[3]. Victoria is engaged in advertising; Lizzie is a singer, composes songs. At the age of 17, she performed in one of the pubs of Barnes (a suburb of London, where Robert was born), and she was noticed by the EMI record company; a year later she became a member of the Aurora group and one of the best-selling performers in the UK.",
+      "image": "actors/N3.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 4,
+   "fields": {
+      "name": "Johnson, Dwayne",
+      "age": 42,
+      "description": "American film actor, entrepreneur, musician, singer[1], former wrestler[2]. Known under the pseudonym The Rock. Considered one of the greatest wrestlers of all time,[3][4] he spent eight years in WWE before starting his acting career. His films have grossed over $3.5 billion in North America and over $10.5 billion worldwide[5], making him one of the highest grossing and highest paid actors in the world[6][7]. Johnson played college football at the University of Miami and won the national championship in 1991. He aspired to a career in football but went undrafted in the 1995 NFL Draft. He signed with the Calgary Stampeders of the Canadian Football League but was expelled from the team in his first season. Johnson's father Rocky and maternal grandfather Peter Maivia were wrestlers, and in 1996 he signed with the World Wrestling Federation (WWF, now WWE)[9]. He rose to prominence after developing his image as a charismatic thrash talker and helping launch the Attitude era, the industry's boom period in the late 1990s and early 2000s.[10] Johnson left the WWE in 2004, returned in 2011 and performed until 2013, and then occasionally appeared in the company until the end of his career in 2019 [11]. He is a 10-time World Champion, as well as a two-time WWF Intercontinental Champion, a five-time Tag Team Champion, a 2000 Battle Royale winner, and a sixth Triple Crown champion. Johnson headlined the biggest selling PPV show in wrestling history, WrestleMania XXVIII.",
+      "image": "actors/N4.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 5,
+   "fields": {
+      "name": "Reeves, Keanu",
+      "age": 37,
+      "description": "Canadian[a] actor, film director, film producer and musician (bass player). He is best known for his roles in the film series Bill & Ted. (1989-2020), The Matrix (1999-2021) and John Wick (since 2014), as well as in the films Point Break (1991), My Own Private Idaho (1991), Dracula (1992), Speed ​​(1994), Johnny Mnemonic (1995), The Devil's Advocate (1997), Constantine: The Dark Lord (2005), Street Kings (2008) and 47 Ronin (2013).\r\nReeves has worked with renowned filmmakers such as Stephen Frears (Dangerous Liaisons, 1988), Gus Van Sant (My Own Private Idaho, 1991), Francis Ford Coppola (Dracula, 1992) and Bernardo Bertolucci (Little Buddha \", 1993). In 2013, he made his directorial debut with the martial arts film Tai Chi Master. Referring to his performance in Point Break (1991), The New York Times critic Janet Maslin praises Reeves' acting versatility, saying that he \"displays considerable discipline and range. He moves easily between the restrained demeanor suited to a police procedural story and the flexible manner of his comic roles. On January 31, 2005, Keanu Reeves received a star on the Hollywood Walk of Fame. He is the highest paid actor (English) Russian. in the history of cinema in terms of the ratio of the amount of a one-time fee to the total amount of earnings ($30 to $156 million).",
+      "image": "actors/N5.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 6,
+   "fields": {
+      "name": "Paul Rudd",
+      "age": 35,
+      "description": "American actor, comedian, screenwriter and producer. Rudd began his career in television before making his big screen debut in Clueless (1995). He is best known for his roles in Hot American Summer (2001), Anchorman: The Legend of Ron Burgundy (2004), The 40-Year-Old Virgin (2005), Knocked Up (2007), Adult Surprise (2008). ), Love You, Man (2009), Anchorman: Hello Again (2013), Fundamentals of Goodness (2016), and Ghostbusters: Descendants (2021). Also known as superhero Scott Lang in the Marvel Cinematic Universe, appearing in 5 films Ant-Man (2015), Captain America: Civil War (2016), Ant-Man and the Wasp (2018) and Avengers: The Wasp. Endgame (2019) and Ant-Man and the Wasp: Quantum Mania (2023).",
+      "image": "actors/N6.jpg"
+   }
+},
+{
+   "model": "movies.actor",
+   "pk": 7,
+   "fields": {
+      "name": "Affleck, Ben",
+      "age": 45,
+      "description": "American film and television actor, film director, screenwriter and producer. Winner of two Oscars: for the original screenplay of the film \"Good Will Hunting\" (together with Matt Damon) and for the film \"Argo\" (together with George Clooney and Grant Heslov). He was the winner of the Golden Raspberry anti-award as the worst actor in the films Gigli, Daredevil and Payback. He was nominated for the Golden Raspberry for Armageddon and Pearl Harbor. In 2015, he received the Reputation Restoration Award for directing the Oscar-winning Argo and acting in Gone Girl, which was highly acclaimed by critics. In 2017, he was again nominated for the Golden Raspberry anti-award for his role in the film Batman v Superman: Dawn of Justice.",
+      "image": "actors/N7.jpg"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 1,
+   "fields": {
+      "name": "Comedy",
+      "description": "comedy",
+      "url": "comedy"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 2,
+   "fields": {
+      "name": "Cartoon",
+      "description": "cartoon",
+      "url": "cartoon"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 3,
+   "fields": {
+      "name": "Adventure",
+      "description": "adventure",
+      "url": "adventure"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 4,
+   "fields": {
+      "name": "Family",
+      "description": "family",
+      "url": "family"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 5,
+   "fields": {
+      "name": "Action movie",
+      "description": "Action movie",
+      "url": "action_movie"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 6,
+   "fields": {
+      "name": "Crime",
+      "description": "crime",
+      "url": "crime"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 7,
+   "fields": {
+      "name": "Thriller",
+      "description": "thriller",
+      "url": "thriller"
+   }
+},
+{
+   "model": "movies.genre",
+   "pk": 8,
+   "fields": {
+      "name": "Detective",
+      "description": "detective",
+      "url": "detective"
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 1,
+   "fields": {
+      "title": "Hannibal",
+      "tagline": "I am a Hannibal",
+      "description": "<p>Will Graham is a highly gifted forensic scientist whose analytical skills help police and FBI agents solve the most complicated crimes. But only the brilliant mind of Will is not always enough, and then the agents seek advice from the famous psychiatrist Dr. Hannibal Lecter. The cooperation of two such gifted intellectuals leads to a very positive dynamics of crime investigations. However, despite the sharp mind, sophisticated style in everything, as well as impeccable manners, Hannibal causes very mixed feelings in Graham, the main of which is fear.</p>",
+      "poster": "movies/M4.jpg",
+      "year": 2013,
+      "country": "USA",
+      "world_premiere": "2013-07-02",
+      "budget": 5000000,
+      "fees_in_usa": 10000000,
+      "fess_in_world": 20000000,
+      "category": 2,
+      "url": "hannibal",
+      "draft": false,
+      "directors": [
+         2
+      ],
+      "actors": [
+         1
+      ],
+      "genres": [
+         6,
+         8,
+         5,
+         7
+      ]
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 2,
+   "fields": {
+      "title": "Super pets",
+      "tagline": "All animals",
+      "description": "<p>The comedy cartoon &quot;Super Pets&quot; tells about the fun and exciting adventures of Superman&#39;s four-legged friend the dog Krypto, who is not only Clark Kent&#39;s best friend, but also has superpowers. Together with the owner, Krypto lives in Metropolis and fights against insidious villains. When Superman is kidnapped, Krypto goes looking for him along with a team of animals from the shelter, who received superpowers as a result of a fatal accident of an unsuccessful experiment.</p>",
+      "poster": "movies/M1.jpg",
+      "year": 2022,
+      "country": "USA",
+      "world_premiere": "2022-09-05",
+      "budget": 344352,
+      "fees_in_usa": 6768678,
+      "fess_in_world": 1073365,
+      "category": 1,
+      "url": "super_pets",
+      "draft": false,
+      "directors": [
+         4
+      ],
+      "actors": [
+         3
+      ],
+      "genres": [
+         2,
+         1,
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 3,
+   "fields": {
+      "title": "John Wick 3",
+      "tagline": "Kelller speed",
+      "description": "<p>Crime thriller &quot;John Wick 3&quot; continues to talk about the fate of a hired killer and a professional in his field, who has no equal. After the events of the second film, John Wick is on the run, as he violated the code of the clan&#39;s secret guild. However, he has nowhere to run, because the clan&#39;s government wants him dead.</p>",
+      "poster": "movies/M3.jpg",
+      "year": 2019,
+      "country": "USA",
+      "world_premiere": "2019-04-01",
+      "budget": 4010000,
+      "fees_in_usa": 3800090,
+      "fess_in_world": 40800090,
+      "category": 1,
+      "url": "john_wick_3",
+      "draft": false,
+      "directors": [
+         6
+      ],
+      "actors": [
+         5
+      ],
+      "genres": [
+         7,
+         5,
+         6
+      ]
+   }
+},
+{
+   "model": "movies.movie",
+   "pk": 4,
+   "fields": {
+      "title": "Luck",
+      "tagline": "Good luck",
+      "description": "<p>Young girl Sam Greenfield is terribly unlucky and faces life&#39;s troubles every day, and her sandwich always falls butter down. But one day the girl finds a lucky coin and meets a cute talking cat, after which she really got lucky. Now her life is turned upside down, and incredible exciting adventures await in the amazing land of Luck, which is inhabited by unprecedented magical creatures.</p>",
+      "poster": "movies/M2.jpg",
+      "year": 2021,
+      "country": "USA, Spain",
+      "world_premiere": "2021-10-07",
+      "budget": 56000,
+      "fees_in_usa": 70000,
+      "fess_in_world": 100700,
+      "category": 1,
+      "url": "luck",
+      "draft": false,
+      "directors": [
+         7
+      ],
+      "actors": [
+         6
+      ],
+      "genres": [
+         2,
+         1,
+         4
+      ]
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 1,
+   "fields": {
+      "title": "hannibal shot-1",
+      "description": "hannibal shot 1",
+      "image": "movie_shots/H1.jpg",
+      "movie": 1
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 2,
+   "fields": {
+      "title": "hannibal shot-2",
+      "description": "hannibal shot 2",
+      "image": "movie_shots/H2.jpg",
+      "movie": 1
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 3,
+   "fields": {
+      "title": "hannibal shot-3",
+      "description": "hannibal shot 3",
+      "image": "movie_shots/H3.jpg",
+      "movie": 1
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 4,
+   "fields": {
+      "title": "Super pets shot-1",
+      "description": "Super pets shot 1",
+      "image": "movie_shots/C1.jpg",
+      "movie": 2
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 5,
+   "fields": {
+      "title": "Super pets shot-2",
+      "description": "Super pets shot 2",
+      "image": "movie_shots/C2.jpg",
+      "movie": 2
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 6,
+   "fields": {
+      "title": "Super pets shot-2",
+      "description": "Super pets shot 2",
+      "image": "movie_shots/C3.jpg",
+      "movie": 2
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 7,
+   "fields": {
+      "title": "John Wick 3 shot-1",
+      "description": "John Wick 3 shot 1",
+      "image": "movie_shots/ДЖ1.jpg",
+      "movie": 3
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 8,
+   "fields": {
+      "title": "John Wick 3 shot-2",
+      "description": "John Wick 3 shot 2",
+      "image": "movie_shots/ДЖ2.jpg",
+      "movie": 3
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 9,
+   "fields": {
+      "title": "John Wick 3 shot-3",
+      "description": "John Wick 3 shot 3",
+      "image": "movie_shots/ДЖ3.jpg",
+      "movie": 3
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 10,
+   "fields": {
+      "title": "Luck shot-1",
+      "description": "Luck shot 1",
+      "image": "movie_shots/Л1.jpeg",
+      "movie": 4
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 11,
+   "fields": {
+      "title": "Luck shot-2",
+      "description": "Luck shot 2",
+      "image": "movie_shots/Л2.jpg",
+      "movie": 4
+   }
+},
+{
+   "model": "movies.movieshots",
+   "pk": 12,
+   "fields": {
+      "title": "Luck shot-3",
+      "description": "Luck shot 3",
+      "image": "movie_shots/Л3.jpg",
+      "movie": 4
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 2,
+   "fields": {
+      "value": 1
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 3,
+   "fields": {
+      "value": 2
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 4,
+   "fields": {
+      "value": 3
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 5,
+   "fields": {
+      "value": 4
+   }
+},
+{
+   "model": "movies.ratingstar",
+   "pk": 6,
+   "fields": {
+      "value": 5
+   }
+},
+{
+   "model": "movies.rating",
+   "pk": 2,
+   "fields": {
+      "ip": "127.0.0.1",
+      "star": 3,
+      "movie": 3
+   }
+},
+{
+   "model": "movies.rating",
+   "pk": 3,
+   "fields": {
+      "ip": "127.0.0.1",
+      "star": 4,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.rating",
+   "pk": 4,
+   "fields": {
+      "ip": "127.0.0.1",
+      "star": 2,
+      "movie": 4
+   }
+},
+{
+   "model": "movies.rating",
+   "pk": 5,
+   "fields": {
+      "ip": "125.125.124.15",
+      "star": 6,
+      "movie": 2
+   }
+},
+{
+   "model": "movies.rating",
+   "pk": 6,
+   "fields": {
+      "ip": "127.0.0.1",
+      "star": 4,
+      "movie": 1
+   }
+},
+{
+   "model": "movies.review",
+   "pk": 1,
+   "fields": {
+      "email": "test@gmail.com",
+      "name": "Mike",
+      "text": "My mess",
+      "parent": null,
+      "movie": 3
+   }
+},
+{
+   "model": "movies.review",
+   "pk": 2,
+   "fields": {
+      "email": "eee@gmail.com",
+      "name": "Test",
+      "text": "Two mess",
+      "parent": 1,
+      "movie": 3
+   }
+},
+{
+   "model": "movies.review",
+   "pk": 3,
+   "fields": {
+      "email": "",
+      "name": "",
+      "text": "It is cool, yea.",
+      "parent": 2,
+      "movie": 3
+   }
+},
+{
+   "model": "movies.review",
+   "pk": 4,
+   "fields": {
+      "email": "sasha@exam.com",
+      "name": "Sasha",
+      "text": "Why is he?",
+      "parent": null,
+      "movie": 3
+   }
+},
+{
+   "model": "movies.review",
+   "pk": 5,
+   "fields": {
+      "email": "yasuo@exam.com",
+      "name": "Yasuo",
+      "text": "Could you give me so criticl?",
+      "parent": null,
+      "movie": 3
+   }
+},
+{
+   "model": "movies.review",
+   "pk": 6,
+   "fields": {
+      "email": "emil@gmail.com",
+      "name": "Emil",
+      "text": "My email is emil!",
+      "parent": null,
+      "movie": 1
+   }
+}
+]

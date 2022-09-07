@@ -1329,7 +1329,7 @@
    "pk": 1,
    "fields": {
       "password": "pbkdf2_sha256$390000$Cj5ED809DdvvTlDvgZ7hjO$iH7LGJkgeWIRAZkZhOBHYYpD7bvULVlblRZPyUehwwo=",
-      "last_login": "2022-09-02T10:09:10.569Z",
+      "last_login": "2022-09-05T14:32:57.285Z",
       "is_superuser": true,
       "username": "viktor",
       "first_name": "",
@@ -1638,6 +1638,14 @@
    "fields": {
       "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oT2MZ:N8zEo7l3F0CnkZYUdt4Z33F-DiLTuK_x_oGv7266ljc",
       "expire_date": "2022-09-13T14:37:11.596Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "xdtnko0nusm4n32888urzvftpa213f2z",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8Boa4dO83kIFBqRqalHZl_Hdp0oVuzzn3vkWkba1x62WJE4uz0OL0yxLlZ2m74Ae1-yzz3NZlSnJP5GG7vM5cXpej_Tuo1OtYe7oFJqcAAJlyYkRQoL0qxmDQHNA6a3MAxQ6ttzY4ow0MOITHJD5fvfM18Q:1oVD9l:lgeAcCh8JOYkzYxv4Cumdxq4o-KJlDkYaIJ9dprdI8E",
+      "expire_date": "2022-09-19T14:32:57.304Z"
    }
 },
 {
